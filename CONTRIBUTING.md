@@ -26,13 +26,13 @@ git checkout -b your-name
 Example:
 
 ```bash
-git checkout -b abhay
+git checkout -b sravan
 ```
 
 Push your branch once:
 
 ```bash
-git push -u origin your-name
+git push -u origin sravan
 ```
 
 ---
@@ -42,13 +42,17 @@ git push -u origin your-name
 Switch to your branch:
 
 ```bash
-git checkout your-name
+git checkout sravan
 ```
 
-Get the latest changes:
+Get the latest project updates:
 
 ```bash
-git pull
+git checkout main
+git pull origin main
+
+git checkout sravan
+git merge main
 ```
 
 Save your changes:
@@ -59,7 +63,7 @@ git commit -m "Describe your changes"
 git push
 ```
 
-Then message **Sravan** to review and merge your work.
+Then notify the team after pushing your latest changes.
 
 ---
 
