@@ -416,6 +416,26 @@ wheels = [
 ]
 
 [[package]]
+name = "dython"
+version = "0.7.12"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+    { name = "numpy", version = "2.4.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
+    { name = "numpy", version = "2.5.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
+    { name = "pandas" },
+    { name = "psutil" },
+    { name = "scikit-learn" },
+    { name = "scipy", version = "1.17.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
+    { name = "scipy", version = "1.18.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
+    { name = "seaborn" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a2/2e/deadfa3bed015257c98734bb2ff47a9deb8da8955e5bce430dea9fb672f8/dython-0.7.12.tar.gz", hash = "sha256:79d093ebd37ff97eb592840176b047576bd7412819076924eca2e1aefc20e784", size = 28978, upload-time = "2025-12-16T21:56:35.197Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/06/c9/461c8ae6df2dd4e11742694c6e767ac7e2f10434f29378a1e6e90944a9c4/dython-0.7.12-py3-none-any.whl", hash = "sha256:64e0f99e4dec27d0e6b5ee622f5ba7ac448c084cab3e7c1f721992f2d8b744e7", size = 26319, upload-time = "2025-12-16T21:56:34.322Z" },
+]
+
+[[package]]
 name = "executing"
 version = "2.2.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1919,6 +1939,7 @@ name = "shopstream"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "dython" },
     { name = "ipykernel" },
     { name = "joblib" },
     { name = "matplotlib" },
@@ -1936,6 +1957,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "dython", specifier = ">=0.7.12" },
     { name = "ipykernel", specifier = ">=7.3.0" },
     { name = "joblib", specifier = ">=1.5.3" },
     { name = "matplotlib", specifier = ">=3.11.1" },
