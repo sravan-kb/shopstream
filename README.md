@@ -6,7 +6,7 @@ ShopStream is an end-to-end e-commerce analytics and machine learning project de
 
 The project processes e-commerce order data using PySpark, performs exploratory analysis and feature engineering, develops machine learning models, automates batch prediction workflows using Apache Airflow, and presents the resulting business insights through Databricks SQL and an interactive Databricks Dashboard.
 
-**CDAC Thiruvananthapuram — PGCP Big Data Analytics, Final Project (Feb 2026 Batch)**
+**CDAC — PGCP Big Data Analytics, Final Project (Feb 2026 Batch)**
 
 ## My Contribution
 
