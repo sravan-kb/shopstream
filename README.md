@@ -8,6 +8,15 @@ The project processes e-commerce order data using PySpark, performs exploratory 
 
 **CDAC Thiruvananthapuram — PGCP Big Data Analytics, Final Project (Feb 2026 Batch)**
 
+## My Contribution
+
+- Built a Dockerized Apache Airflow environment to automate Databricks Jobs and ML prediction workflows
+- Integrated Airflow with Databricks to trigger batch predictions and update the dashboard with new results
+- Set up and managed the complete Databricks environment for the project
+- Developed the high-value order classification ML workflow
+- Implemented and integrated the ML models and prediction pipelines in Databricks
+- Built and configured the Databricks Dashboard for the project
+
 ## Project Architecture
 
 ![ShopStream Architecture](docs/architecture.jpeg)
